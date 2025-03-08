@@ -1,5 +1,19 @@
+# Node modules
 node_modules/
+npm-debug.log
+yarn-error.log
+
+# Environment variables
 .env
-build/
+.env.local
+
+# Logs
+logs/
+*.log
+*.gz
+
+# Dependency lock (optional)
+package-lock.json
+
+# Build files
 dist/
-package-lock.json/
